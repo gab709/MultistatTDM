@@ -1,0 +1,26 @@
+<div class="editor-row">
+    <div class="section gf-form-group">
+        <h5 class="section-heading">TDMOptions</h5>
+
+        <div class="gf-form">
+            <gf-form-switch class="gf-form" label-class="width-10" label="UseCustomValue" checked="ctrl.panel.TdmOption"
+                            on-change="ctrl.refresh()"></gf-form-switch>
+            <div class="gf-form" ng-if="ctrl.panel.TdmOption">
+                <label class="gf-form-label width-9">ListLabelsTDM</label>
+                <input type="string" class="gf-form-input width-15" data-placement="right"
+                       bs-tooltip="'Insert label name,separated by comma'" ng-model="ctrl.panel.listLabelsTDM" ng-change="ctrl.refresh()"
+                       ng-model-onblur/>
+                <label class="gf-form-label width-9">Label Indicatore</label>
+                <input type="string" class="gf-form-input width-15" data-placement="right"
+                       bs-tooltip="'Label Indicatore'" ng-model="ctrl.panel.labelIndicatoreTDM" ng-change="ctrl.refresh()"
+                       ng-model-onblur/>
+                <label class="gf-form-label michaeldmoore-multistat-panel-w9">Colore indicatore</label>
+                <span class="gf-form-label michaeldmoore-multistat-panel-w4">
+                     <spectrum-picker ng-model="ctrl.panel.IndicatoreTDMColor"
+                                      ng-change="ctrl.refresh()"></spectrum-picker>
+                </span>
+
+            </div>
+        </div>
+    </div>
+</div>
