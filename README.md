@@ -1,8 +1,7 @@
 # MultistatTDM
+Authors: Daniele Ortu, Gabriele Merlin, Gianmarco Cherchi and Riccardo Scateni (University of Cagliari, Italy)
 
-Authors
-Daniele Ortu, Gabriele Merlin
-University of Cagliari 
+This plugin is part of the TDM project (http://www.tdm-project.it) and it has been presented during the STAG 2019 scientific conference (http://stag2019.crs4.it) with the poster "Design and Implementation of a Visualization Tool for the in-depth Analysis of the Domestic Electricity Consumption".
 
 MultistatTDM is a modified version of Grafana’s native multistat panel. It is a part of TDM project, (link: http://www.tdm-project.it/), initiative born thanks to the collaboration between CRS4 and University of Cagliari.
 In this case, the goal was to show the measurements of many electric appliances, provided by Iotawatt sensor. Users could see through this panel the actual consumption or a mean.
