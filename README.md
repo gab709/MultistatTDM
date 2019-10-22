@@ -27,6 +27,6 @@ To configure it on grafana you need the support to a database as influxdb or sim
 ## Authors
 Daniele Ortu, Gabriele Merlin, Gianmarco Cherchi and Riccardo Scateni 
 
-University of Cagliari, Italy)
+University of Cagliari, Italy
 
 
