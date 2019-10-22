@@ -4,7 +4,7 @@ This plugin is part of the TDM project (http://www.tdm-project.it) and it has be
 
 MultistatTDM is a modified version of Grafana’s native multistat panel. The goal was to show the measurements of many electric appliances, provided by Iotawatt sensor. Users could see through this panel the actual consumption or a mean.
 
-## Original version of SingleStat Panel
+## Original version of Multistat Panel
 
 Read more about it here:
 https://grafana.com/grafana/plugins/michaeldmoore-multistat-panel
